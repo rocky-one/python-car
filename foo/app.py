@@ -7,7 +7,7 @@ app = Flask(__name__)
  
 @app.route('/')
 def hello_world():
-    return 'Hello a!'
+    return '要是吃臭豆腐 回去熬了你!'
 
 @app.route('/car/forward')
 def forwards():
